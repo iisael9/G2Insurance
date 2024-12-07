@@ -216,7 +216,7 @@ export default function Home() {
           <div className="flex justify-center">
             <a href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/Review-01.png"
+                src="/Review-01.PNG"
                 alt="Review 1"
                 width={500}
                 height={500}
@@ -227,7 +227,7 @@ export default function Home() {
           <div className="flex justify-center">
             <a href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/Review-02.png"
+                src="/Review-02.PNG"
                 alt="Review 2"
                 width={500}
                 height={500}
@@ -238,7 +238,7 @@ export default function Home() {
           <div className="flex justify-center">
             <a href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/Review-03.png"
+                src="/Review-03.PNG"
                 alt="Review 3"
                 width={500}
                 height={500}
