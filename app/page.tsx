@@ -23,6 +23,7 @@ export default function Home() {
     { id: 6, title: 'Inland Marine Insurance', description: "Protects movable/business property that is transported on land or temporarily stored by a third party.", icon: '/unsealed-road.png' },
     { id: 7, title: 'Professional Liability/Errors & Omissions', description: "Protects business professionals from negligence or mistakes related to the professional services provided.", icon: '/suit-and-tie.png' },
     { id: 8, title: 'Workers Compensation', description: "Provides financial support for employees who get hurt or sick during work hours. It also protects employers from lawsuits related to work injuries.", icon: '/worker.png' },
+    { id: 9, title: 'Commercial Auto Insurance', description: "Covers business vehicles for things like injury to someone else, driver injury, damage to someone else's property and/or damage to your vehicle/s.", icon: '/auto.png' },
   ];
 
   // Function to open modal with specific content
@@ -246,9 +247,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <button className="mt-8 bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700">
+        {/* <button className="mt-8 bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700">
           Get Your Quote
-        </button>
+        </button> */}
       </section>
     </div>
   );
