@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Table of Contents
 
-## Getting Started
+    Overview
+    Features
+    Technologies Used
+    Design Workflow
+    Setup Instructions
+    Purpose
+    Future Improvements
+    Acknowledgments
 
-First, run the development server:
+Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+G2 Insurance Website is a single-page application (SPA) built to showcase the services offered by G2 Business & Auto Insurance. The website features smooth navigation, a professional design, and interactive sections such as a carousel, insurance coverages, Google reviews, and a contact form for users to request quotes.
+Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Responsive Design: Optimized for viewing on Large devices.
+    Sticky Navigation Bar: Easy access to all sections of the website.
+    Interactive Carousel: Highlights the business's key offerings and services.
+    Insurance Coverage Details: Cards describing the different types of insurance services provided.
+    Contact Form: Users can submit their information and request a quote seamlessly.
+    Google Reviews Section: Highlights top customer reviews.
+    Modal Popups: Provides detailed descriptions of each insurance service.
+    Custom Styling: Consistent design with tailored colors and fonts for brand representation.
+    Email Integration: Email submissions are handled using Resend for reliable and secure email delivery.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project leverages the following technologies:
 
-## Learn More
+    Frontend Framework: Next.js (React-based)
+    Styling: Tailwind CSS for utility-first, responsive design
+    JavaScript/TypeScript: For logic and interactivity
+    Email Handling: Resend for email submission
+    Deployment Platform: Vercel
+    Icons & Images: Custom icons and a professionally designed logo
+    Fonts: Local fonts for a unique and professional aesthetic
 
-To learn more about Next.js, take a look at the following resources:
+Design Workflow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The design process was initiated in Figma to build a wireframe and establish the framework of the website. This step allowed for:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    Collaborative Design: Planning the layout and structure with input from stakeholders.
+    Consistency: Maintaining a unified visual identity with a clear design system.
+    Prototyping: Ensuring the design was user-friendly before development began.
 
-## Deploy on Vercel
+The wireframe created in Figma was used as the foundation to guide the website's development.
+Setup Instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Purpose
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This website was created to serve as an online presence for G2 Business & Auto Insurance, showcasing its services and allowing potential clients to:
+
+    Learn about various insurance coverage options.
+    Submit their information to request quotes.
+    View Google reviews and establish trust in the business.
+
+The project was built with a focus on responsive design, seamless navigation, and a professional aesthetic to match the company's branding.
+Future Improvements
+
+Acknowledgments
+
+Special thanks to G2 Business & Auto Insurance for trusting me to create their online presence, to Figma for helping design the framework, to Resend for reliable email integration, and to the tools and libraries that made this project possible.
