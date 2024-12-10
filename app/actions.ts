@@ -10,7 +10,7 @@ export default async function sendEmail(fd: FormData) {
     }
     await resend.emails.send({
         from: 'Acme <onboarding@resend.dev>',
-        to: 'iisael090@gmail.com',
+        to: 'iisael9@yahoo.com',
         subject: 'New Contact Form Submission',
         react: EmailTemplate({
             name: formData["name"].toString(),
