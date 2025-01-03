@@ -64,14 +64,21 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="home" className="relative bg-cover bg-center h-screen">
-        <Carousel />
-        <div className="absolute inset-0 flex justify-center items-center">
-          <a href="#location-contact" className="bg-red-600 text-white font-bold px-6 py-2 rounded hover:bg-red-700 z-50">
-            Get Your Quote
-          </a>
-        </div>
-      </section>
+      <section
+  id="home"
+  className="relative bg-cover bg-center h-screen hidden md:block"
+>
+  <Carousel />
+  <div className="absolute inset-0 flex justify-center items-center">
+    <a
+      href="#location-contact"
+      className="bg-red-600 text-white font-bold px-6 py-2 rounded hover:bg-red-700 z-50"
+    >
+      Get Your Quote
+    </a>
+  </div>
+</section>
+
 
       <section id="insurance-coverages" className="p-4 md:p-8">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 md:mb-6">Insurance Coverages</h2>
