@@ -1,7 +1,7 @@
 'use server'
 import { Resend } from 'resend';
 import EmailTemplate from './components/email-template';
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.g2ins);
 
 export default async function sendEmail(fd: FormData) {
     const formData = Object.fromEntries(fd);
