@@ -146,7 +146,7 @@ export default function Home() {
           <div className="flex gap-2 items-center">
             <a href="mailto:veronica@getg2insurance.com" className='underline hover:text-[#CD252B] text-lg md:text-xl'>veronica@getg2insurance.com</a>
           </div>
-          <p className='text-lg md:text-xl'>Monday - Friday, 9:00 AM - 5:00 PM</p>
+          <p className='text-lg md:text-xl'>Monday - Friday, 9:00 AM - 6:00 PM</p>
         </div>
 
         <form onSubmit={handleSubmit} className='bg-white shadow-lg p-6 flex flex-col gap-6 rounded-xl flex-1'>
