@@ -32,7 +32,7 @@ const EmailTemplate: React.FC<EmailTemplateProps> = ({ name, email, phone, insur
                 <footer style={{ marginTop: '30px', borderTop: '1px solid #CD252B', paddingTop: '10px', textAlign: 'center', color: '#777777', fontSize: '14px' }}>
                     <p>G2 Business & Auto Insurance</p>
                     <p>3350 Shelby St, Ste 200 Ontario CA 91764</p>
-                    <p>Email: info@getg2insurance.com | Phone: 909-493-3220</p>
+                    <p>Email: veronica@getg2insurance.com | Phone: 909-493-3220</p>
                 </footer>
             </section>
         </div>
