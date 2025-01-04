@@ -65,19 +65,19 @@ export default function Home() {
       </header>
 
       <section
-  id="home"
-  className="relative bg-cover bg-center h-screen hidden md:block"
->
-  <Carousel />
-  <div className="absolute inset-0 flex justify-center items-center">
-    <a
-      href="#location-contact"
-      className="bg-red-600 text-white font-bold px-6 py-2 rounded hover:bg-red-700 z-50"
-    >
-      Get Your Quote
-    </a>
-  </div>
-</section>
+        id="home"
+        className="relative bg-cover bg-center h-screen hidden md:block"
+      >
+        <Carousel />
+        <div className="absolute inset-0 flex justify-center items-center">
+          <a
+            href="#location-contact"
+            className="bg-red-600 text-white font-bold px-6 py-2 rounded hover:bg-red-700 z-50"
+          >
+            Get Your Quote
+          </a>
+        </div>
+      </section>
 
 
       <section id="insurance-coverages" className="p-4 md:p-8">
@@ -136,18 +136,30 @@ export default function Home() {
       <section id="location-contact" className="p-8 md:p-16 flex flex-wrap gap-8 bg-[#F8EEEE]">
         <h2 className="text-3xl md:text-4xl font-bold text-center w-full mb-6">Location & Contact</h2>
         <div className='rounded-2xl p-6 bg-white shadow-lg flex flex-col gap-6 flex-1'>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206.56224702158576!2d-117.57852742718241!3d34.06961801767697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c335a0d776616f%3A0xc8b866bfc4088f5c!2s3350%20Shelby%20St%20%23200%2C%20Ontario%2C%20CA%2091764!5e0!3m2!1sen!2sus!4v1729128388087!5m2!1sen!2sus" width="100%" height="264" className='shadow-xl' loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-          <div className="flex gap-2 items-center">
-            <a href="https://maps.app.goo.gl/qdF7TKZrKGaw6dqG6" className='underline hover:text-[#CD252B] text-lg md:text-xl'>3350 Shelby St, Ste 200 Ontario CA 91764</a>
-          </div>
-          <div className="flex gap-2 items-center">
-            <a href="tele:909-493-3220" className='underline hover:text-[#CD252B] text-lg md:text-xl'>909-493-3220</a>
-          </div>
-          <div className="flex gap-2 items-center">
-            <a href="mailto:veronica@getg2insurance.com" className='underline hover:text-[#CD252B] text-lg md:text-xl'>veronica@getg2insurance.com</a>
-          </div>
-          <p className='text-lg md:text-xl'>Monday - Friday, 9:00 AM - 6:00 PM</p>
-        </div>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206.56224702158576!2d-117.57852742718241!3d34.06961801767697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c335a0d776616f%3A0xc8b866bfc4088f5c!2s3350%20Shelby%20St%20%23200%2C%20Ontario%2C%20CA%2091764!5e0!3m2!1sen!2sus!4v1729128388087!5m2!1sen!2sus" 
+    width="100%" 
+    height="264" 
+    className='shadow-xl' 
+    loading="lazy" 
+    referrerPolicy="no-referrer-when-downgrade">
+  </iframe>
+  <div className="grid grid-cols-[auto,1fr] gap-x-2 items-start mt-6">
+    <span className="text-[#CD252B] font-semibold text-lg md:text-xl">Location:</span>
+    <a href="https://maps.app.goo.gl/qdF7TKZrKGaw6dqG6" className='underline hover:text-[#CD252B] text-lg md:text-xl'>3350 Shelby St, Ste 200 Ontario CA 91764</a>
+
+    <span className="text-[#CD252B] font-semibold text-lg md:text-xl">Phone:</span>
+    <a href="tele:909-493-3220" className='underline hover:text-[#CD252B] text-lg md:text-xl'>909-493-3220</a>
+
+    <span className="text-[#CD252B] font-semibold text-lg md:text-xl">Email:</span>
+    <a href="mailto:veronica@getg2insurance.com" className='underline hover:text-[#CD252B] text-lg md:text-xl'>veronica@getg2insurance.com</a>
+
+    <span className="text-[#CD252B] font-semibold text-lg md:text-xl">Hours:</span>
+    <p className='text-lg md:text-xl'>Monday - Friday, 9:00 AM - 6:00 PM</p>
+  </div>
+</div>
+
+
 
         <form onSubmit={handleSubmit} className='bg-white shadow-lg p-6 flex flex-col gap-6 rounded-xl flex-1'>
           <div className="flex flex-col md:flex-row gap-4">
@@ -164,15 +176,16 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex flex-col gap-4 w-full">
               <label className="text-[#CD252B] italic text-sm">Phone Number*</label>
-              <input name="number" type="text" placeholder='909-493-3220' className='shadow-lg rounded-lg px-4 py-2 w-full' required />
+              <input name="number" type="text" placeholder='909-493-3220...' className='shadow-lg rounded-lg px-4 py-2 w-full' required />
             </div>
             <div className="flex flex-col gap-4 w-full">
               <label className="text-[#CD252B] italic text-sm">Insurance*</label>
-              <input name="insurance" type="text" placeholder='N/A' className='shadow-lg rounded-lg px-4 py-2 w-full' required />
+              <input name="insurance" type="text" placeholder='Commercial Property Insurance...' className='shadow-lg rounded-lg px-4 py-2 w-full' required />
             </div>
           </div>
 
-          <textarea name="comment" placeholder="Give us more information about your case, or any questions you have." className="shadow-lg rounded-lg px-4 py-2 w-full" />
+          <label className="text-[#CD252B] italic text-sm">Comment (Optional)</label>
+          <textarea name="comment" placeholder="Give us more information about your case, or any questions you have." className="shadow-lg rounded-lg px-4 py-12 w-full" />
 
           <div className="flex gap-4 self-end">
             <button className='bg-[#909090] text-white rounded-xl shadow-xl px-4 py-2' type="reset">Clear</button>
@@ -182,19 +195,53 @@ export default function Home() {
       </section>
 
       <section id="google-reviews" className="p-8 md:p-16 bg-white text-center">
-        <h2 className="text-3xl font-bold mb-8">Top Rated on Google</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <a href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#" target="_blank" rel="noopener noreferrer" className="flex justify-center">
-            <Image src="/Review-01.PNG" alt="Review 1" width={500} height={500} className="rounded-lg shadow-lg transition transform duration-300 hover:scale-105 hover:shadow-2xl" />
-          </a>
-          <a href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#" target="_blank" rel="noopener noreferrer" className="flex justify-center">
-            <Image src="/Review-02.PNG" alt="Review 2" width={500} height={500} className="rounded-lg shadow-lg transition transform duration-300 hover:scale-105 hover:shadow-2xl" />
-          </a>
-          <a href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#" target="_blank" rel="noopener noreferrer" className="flex justify-center">
-            <Image src="/Review-03.PNG" alt="Review 3" width={500} height={500} className="rounded-lg shadow-lg transition transform duration-300 hover:scale-105 hover:shadow-2xl" />
-          </a>
-        </div>
-      </section>
+  <h2 className="text-3xl font-bold mb-8">Top Rated on Google</h2>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <a
+      href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex justify-center"
+    >
+      <Image
+        src="/Review-01.PNG"
+        alt="Review 1"
+        width={1200}
+        height={1200}
+        className="rounded-lg shadow-lg transition transform duration-300 hover:scale-105 hover:shadow-2xl w-3/4 md:w-full lg:w-[700px]"
+      />
+    </a>
+    <a
+      href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex justify-center"
+    >
+      <Image
+        src="/Review-02.PNG"
+        alt="Review 2"
+        width={1200}
+        height={1200}
+        className="rounded-lg shadow-lg transition transform duration-300 hover:scale-105 hover:shadow-2xl w-3/4 md:w-full lg:w-[700px]"
+      />
+    </a>
+    <a
+      href="https://www.google.com/search?client=firefox-b-1-d&q=g2+insurance+#"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex justify-center"
+    >
+      <Image
+        src="/Review-03.PNG"
+        alt="Review 3"
+        width={1200}
+        height={1200}
+        className="rounded-lg shadow-lg transition transform duration-300 hover:scale-105 hover:shadow-2xl w-3/4 md:w-full lg:w-[700px]"
+      />
+    </a>
+  </div>
+</section>
+
 
       <footer className="p-6 bg-[#F8EEEE] text-black text-center md:flex md:justify-between md:items-center">
         <p className="text-sm md:text-lg">© 2025 G2 Business & Auto Insurance. All rights reserved.</p>
