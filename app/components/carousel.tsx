@@ -8,8 +8,18 @@ export default function Carousel() {
     // '/carousel-02.webp',
     '/carousel-01.jpg',
     '/carousel-03.webp',
-    '/carousel-02.jpg',
+    // '/carousel-02.jpg',
     '/trailer-truck.jpg',
+    '/g2building-01.jpg,
+    '/g2building-02.jpg,
+    '/g2building-03.jpg,
+    '/g2truck.jpg,
+    '/g2truck-01.jpeg,
+
+
+
+
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
