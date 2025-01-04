@@ -144,7 +144,7 @@ export default function Home() {
             <a href="tele:909-493-3220" className='underline hover:text-[#CD252B] text-lg md:text-xl'>909-493-3220</a>
           </div>
           <div className="flex gap-2 items-center">
-            <a href="mailto:info@getg2insurance.com" className='underline hover:text-[#CD252B] text-lg md:text-xl'>info@getg2insurance.com</a>
+            <a href="mailto:veronica@getg2insurance.com" className='underline hover:text-[#CD252B] text-lg md:text-xl'>veronica@getg2insurance.com</a>
           </div>
           <p className='text-lg md:text-xl'>Monday - Friday, 9:00 AM - 5:00 PM</p>
         </div>
