@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Carousel() {
   const carouselImages = [
-    '/carousel-02.webp',
+    // '/carousel-02.webp',
     '/carousel-01.jpg',
     '/carousel-03.webp',
     '/carousel-02.jpg',
