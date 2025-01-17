@@ -1,4 +1,4 @@
-Link: https://g2insurance.vercel.app/
+Link: https://g2insurance.vercel.app/](https://www.g2-insurance.com/
 
 Table of Contents
 
